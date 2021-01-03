@@ -223,6 +223,7 @@ a{
     flex-direction: column;
     justify-content: space-around;
     padding-left: 100px;
+    margin-bottom: 50px;
 }
 .about-kotak{
     width: 100%;
@@ -318,7 +319,8 @@ a{
 
 /* ------ champion prize ------- */
 .champss{
-    height: 110vh;
+    height: 115vh;
+    margin-bottom: 50px;
 }
 .kotakbaru{
     display: flex;
@@ -511,27 +513,34 @@ label{
 
 /* ---------------------------------------- FAQ ----------------------------*/
 
+.faqq .heading {
+    margin-bottom: 50px;
+}
 
 
 .quesionanswer {
-    width: 100%;
-   
+    width: 100vh;
+    height: 100vh;
     
     display: flex;
-    flex-direction: row;
+    
+    justify-content: space-around;
+ 
   
-    background-color: black;
-}
+
+} 
 
 /* kiri */
 .accordion {
   
-    width:50%;
-    height: 150vh;
+   
+    /* height: 150vh; */
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+   
     margin-top: 0px;
-    margin-left: 50px;
+   
     background-color: black;
 
     
@@ -564,7 +573,6 @@ label{
 
 
 
-/* ukuran foto kiri */
 .tanya1 {
     /* position: relative; */
      width: 375px;
@@ -578,24 +586,23 @@ label{
      height: 200px;
      
  }
- 
- .tanya2 {
-    /* position: relative; */
-     width: 400px;
-     height: 120px;
-     cursor: pointer;
-   
- }
+
  .jawab2 {
- 
-     width: 500px;
-     height: 200px;
-     
+
+ width: 400px;
+ height: 150px;
  }
 
+ .tanya2 {
+    width: 375px;
+     height: 120px;
+   
+ }
+
+
  .tanya3 {
-    /* position: relative; */
-     width: 400px;
+    position: relative; 
+    width: 375px;
      height: 120px;
      cursor: pointer;
    
@@ -610,33 +617,33 @@ label{
  
  .tanya4  {
     /* position: relative; */
-     width: 300px;
+     width: 400px;
      height: 150px;
      cursor: pointer;
    
  }
  .jawab4 {
  
-     width: 300px;
+     width: 400px;
      height: 200px;
      
  }
  
  .tanya5 {
-     width: 500px;
-     height: 200px;
+    width: 400px;
+    height: 150px;
+   
  }
-
  .jawab5 {
  
     width: 400px;
-    height: 200px;
+    height: 400px;
     
 }
 
 .tanya6 {
     width: 400px;
-    height: 200px;
+    height: 150px;
 }
 
 .jawab6 {
@@ -646,96 +653,20 @@ label{
    
 }
 
-
-
-/* kanan  */
-.accordion2 {
-  
-    width:50%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
- 
-    background-color: black;
-
-    
+.tanya7, .tanya8, .tanya9, .tanya19, .tanya20{
+    width: 375px;
+    height: 175px;
 }
 
-.accordion2 .contentby {
-   
-    /* margin: 10px; */
-    background-color: black;
-    
-}
-
-
-.accordion2 .contentby .contenty {
-
-    /* position: relative; */
-    height: 0px;
-    overflow: hidden;
-    transition: 0.5s;
-    background-color: black;
-}
-
-.accordion2 .contentby.activey .contenty{
-    height : 200px;
-    background-color: black;
-    margin:0px;
-    padding-left: 10px;
-}
-
-.tanya7 {
+.jawab7, .tanya8, .jawab8, .jawab9 {
     width: 400px;
     height: 200px;
 }
 
-.jawab7 {
-
-   width: 400px;
-   height: 200px;
-   
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* --------------------------------sponsor ----------------------------------- */
 .faqq, .contactus{
-    height: 200vh;
+    height: 125vh;
 }
 .sponsor, .medpar{
     height: 125vh;
@@ -890,6 +821,8 @@ label{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 50px;
+  
 }
 
 .any-question{
